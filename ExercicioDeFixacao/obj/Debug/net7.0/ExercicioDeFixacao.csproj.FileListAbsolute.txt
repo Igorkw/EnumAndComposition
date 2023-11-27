@@ -1,0 +1,14 @@
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\bin\Debug\net7.0\ExercicioDeFixacao.exe
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\bin\Debug\net7.0\ExercicioDeFixacao.deps.json
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\bin\Debug\net7.0\ExercicioDeFixacao.runtimeconfig.json
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\bin\Debug\net7.0\ExercicioDeFixacao.dll
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\bin\Debug\net7.0\ExercicioDeFixacao.pdb
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.AssemblyInfoInputs.cache
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.AssemblyInfo.cs
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.csproj.CoreCompileInputs.cache
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.dll
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\refint\ExercicioDeFixacao.dll
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.pdb
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ExercicioDeFixacao.genruntimeconfig.cache
+D:\TI\Estudos\Udemy\C#\Seção 9 - Enumerações e composição\ExercicioDeFixacao\ExercicioDeFixacao\obj\Debug\net7.0\ref\ExercicioDeFixacao.dll
