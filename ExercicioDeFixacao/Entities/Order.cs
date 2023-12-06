@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
+using System.Text;
 using ExercicioDeFixacao.Entities.Enums;
 namespace ExercicioDeFixacao.Entities
 {
@@ -29,7 +32,28 @@ namespace ExercicioDeFixacao.Entities
         }
         public double total()
         {
-            return Items.Count;
+            double total = 0.0;
+            foreach (OrderItem item in Items)
+            {
+                total += item.SubTotal();
+            }
+            return total;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\n-----------------------\nORDER SUMARY:\n");
+            sb.AppendLine($"Order moment: {Moment}");
+            sb.AppendLine($"Order status: {Status}");
+            sb.AppendLine($"Client: {Client.Name} ({Client.BirthDate.ToString("dd/MM/yyyy")}) - {Client.Email}");
+            sb.AppendLine("\n-----------------------\nOrder items:\n");
+            foreach (OrderItem item in Items)
+            {
+                sb.Append(item.ToString());
+            }
+            sb.AppendLine($"-----------------------\nTotal price: ${total()}");
+            return sb.ToString();
         }
     }
 }

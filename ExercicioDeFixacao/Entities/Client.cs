@@ -6,7 +6,7 @@
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
 
-        public Client() 
+        public Client()
         {  
         }
 

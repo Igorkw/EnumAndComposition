@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
+
 namespace ExercicioDeFixacao.Entities
 {
     internal class OrderItem
@@ -20,6 +23,16 @@ namespace ExercicioDeFixacao.Entities
         public double SubTotal()
         {
             return Quantity * Price;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"{Product.Name}, ");
+            sb.Append($"${Price.ToString("F2", CultureInfo.InvariantCulture)}, ");
+            sb.Append($"Quantity: {Quantity.ToString()}, ");
+            sb.AppendLine($"Subtotal: ${SubTotal().ToString("F2", CultureInfo.InvariantCulture)}");
+            return sb.ToString();
         }
     }
 }

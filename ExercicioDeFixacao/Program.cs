@@ -29,6 +29,7 @@ namespace ExercicioDeFixacao
             Console.Write("How many items to this order? ");
             int n = int.Parse(Console.ReadLine());
 
+            OrderItem orderItem = new OrderItem();
             for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"\n#{i} item data:");
@@ -40,11 +41,13 @@ namespace ExercicioDeFixacao
                 int quantity = int.Parse(Console.ReadLine());
 
                 Product product = new Product(productName, price);
-                OrderItem orderItem = new OrderItem(quantity, price, product);
+                orderItem = new OrderItem(quantity, price, product);
                
                 order.addItem(orderItem);
+
             }
 
+            Console.WriteLine(order);
         }
     }
 }
